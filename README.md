@@ -1,73 +1,41 @@
-# Welcome to your Lovable project
+# 🎵 Music Genre Classification Web Application
 
-## Project info
+## 📘 Overview
+This project is a **Music Genre Classification Web App** that predicts the genre of an uploaded audio file using **Machine Learning**.  
+It combines a **React + Vite + Tailwind CSS** frontend with a **Flask + Python** backend powered by trained ML models.
 
-**URL**: https://lovable.dev/projects/104b9f8f-3e3a-485d-8855-200bd0a9a81a
+---
 
-## How can I edit this code?
+## 🚀 Features
+- 🎧 Upload audio files (`.wav`, `.mp3`, `.flac`, `.m4a`)
+- 🤖 Predict music genre using **SVM** and **Random Forest** models
+- 📊 Real-time prediction results with confidence levels
+- 🧠 Uses **Librosa** for feature extraction (MFCC, Chroma, ZCR, Tempo)
+- 🌐 Responsive UI built with **React + Tailwind**
+- 🔄 Backend API built with **Flask** for ML inference
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🏗️ Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/104b9f8f-3e3a-485d-8855-200bd0a9a81a) and start prompting.
+### Frontend
+- **React (Vite)**
+- **TypeScript**
+- **Tailwind CSS**
+- **shadcn/ui**
 
-Changes made via Lovable will be committed automatically to this repo.
+### Backend
+- **Flask**
+- **Python 3.12**
+- **Librosa**
+- **Scikit-learn**
+- **NumPy**, **Joblib**
 
-**Use your preferred IDE**
+### Machine Learning Models
+- Support Vector Machine (SVM)
+- Random Forest Classifier
+- Feature scaling with **StandardScaler**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/104b9f8f-3e3a-485d-8855-200bd0a9a81a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📁 Project Structure
