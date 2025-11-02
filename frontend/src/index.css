@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* WhatsApp Dark Theme Colors */
+    --background: 200 15% 6%;
+    --foreground: 180 10% 95%;
+
+    --card: 195 15% 10%;
+    --card-foreground: 180 10% 95%;
+
+    --popover: 195 15% 10%;
+    --popover-foreground: 180 10% 95%;
+
+    /* WhatsApp Green */
+    --primary: 142 70% 49%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Dark chat bubble */
+    --secondary: 174 54% 20%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 195 15% 15%;
+    --muted-foreground: 180 10% 60%;
+
+    /* Accent green for highlights */
+    --accent: 142 70% 49%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 65% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 195 15% 18%;
+    --input: 195 15% 15%;
+    --ring: 142 70% 49%;
+
+    --radius: 0.75rem;
+
+    /* Chat bubble colors */
+    --chat-sent: 174 72% 19%;
+    --chat-received: 195 15% 14%;
+    
+    /* Gradient for headers */
+    --gradient-whatsapp: linear-gradient(135deg, hsl(174 72% 19%), hsl(174 72% 25%));
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
